@@ -1,0 +1,459 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 15px;
+}
+
+nav a:hover {
+  background-color: silver;
+  color: black;
+}
+
+nav .searsh {
+  float: right;
+  margin-right: 10px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0px;
+}
+
+header h1 {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+header h6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+header h6 span {
+  padding: 5px 10px;
+  background-color: black;
+  color: #ffffff;
+}
+
+.content {
+  position: relative;
+}
+
+#aboveimg {
+  position: absolute;
+  top: 35%;
+  left: 30px;
+  color: #ffffff;
+  font-family: oswald;
+}
+
+.w5 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 3px;
+}
+
+.wc {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 96px;
+  letter-spacing: 5px;
+}
+
+.content button {
+  padding: 15px 24px;
+  color: #000;
+  background-color: #fff;
+  font-size: 18px;
+  opacity: 0.5;
+  border: none;
+  text-align: center;
+}
+
+.content button:hover {
+  opacity: 1;
+}
+
+#leftside {
+  float: left;
+  width: 70%;
+  background-color: #f1f1f1;
+  padding: 20px 30px;
+}
+
+#leftside article {
+  padding: 20px 30px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+
+#leftside article .articleleft {
+  text-align: center;
+  font-family: oswald;
+  padding-bottom: 15px;
+  font-size: 24px;
+}
+
+#leftside article .tt span {
+  color: silver;
+}
+
+#leftside article .tt {
+  text-align: center;
+  font-family: oswald;
+  padding-bottom: 28px;
+}
+
+.ss {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  font-family: open sans;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+.ss span {
+  font-weight: bold;
+}
+
+.b1 {
+  border: 1px solid silver;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  background-color: #ffffff;
+  float: left;
+}
+
+.b1:hover {
+  background-color: silver;
+  border: silver;
+}
+
+.b2 {
+  float: right;
+  background-color: #000;
+  color: #ffffff;
+  padding: 8px 13px;
+  border: #000;
+}
+
+.b2 span {
+  background-color: #ffffff;
+  color: #000;
+  padding: 0px 8px;
+}
+
+.b2:hover {
+  background-color: silver;
+  border: silver;
+}
+
+.artfooter {
+  padding: 20px 0px;
+}
+
+.left {
+  float: left;
+  width: 15%;
+  padding: 10px;
+}
+
+.right {
+  float: right;
+  width: 85%;
+  padding: 10px;
+  padding-top: 30px;
+}
+.s1 {
+  font-weight: bold;
+}
+
+.s2 {
+  color: silver;
+}
+
+.right p {
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+.artfooter img {
+  padding-top: 15px;
+}
+
+.rightntro p {
+  background-color: #000;
+  color: #ffffff;
+  margin-top: -10px;
+  line-height: 23px;
+  font-family: opensans;
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.rightntro p span {
+  font-family: oswald;
+  font-weight: bold;
+  /* margin: 10px 0; */
+  padding-top: 20px;
+  letter-spacing: 1px;
+}
+
+.rightsec {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rightsec h3 {
+  background-color: #000;
+  color: #ffffff;
+  padding: 20px;
+  font-family: oswald;
+  font-weight: normal;
+}
+
+.seccontent {
+  background-color: #ffffff;
+}
+
+.seccontent ul li:hover {
+  background-color: silver;
+}
+
+.seccontent ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.seccontent ul li {
+  border-top: 1px solid gray;
+  padding: 10px;
+}
+
+.rights {
+  float: right;
+  width: 85%;
+}
+
+.lefts {
+  float: left;
+  width: 15%;
+}
+
+.rights p {
+  padding: 4px 12px;
+}
+
+.seccontent {
+  padding: 20px;
+}
+
+.seccontent .conteu {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 100px;
+}
+
+#tags {
+  padding: 20px;
+}
+
+#tags span {
+  background-color: rgb(240, 237, 237);
+  padding: 0px 5px;
+  display: inline-block;
+  margin-top: 15px;
+  font-family: opensans;
+  font-size: 0.9rem;
+}
+
+.sp1 {
+  background-color: #000 !important;
+  color: #ffffff;
+  padding: 2px 10px !important;
+}
+
+#Inspiration {
+  padding: 0;
+}
+
+#Inspiration img {
+  width: 49%;
+  padding: 10px;
+}
+
+#Follow {
+  padding: 20px;
+}
+
+#Follow a {
+  color: #000;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+
+#Follow a:hover {
+  color: gray;
+}
+
+#Subscribe {
+  padding: 20px;
+}
+
+#Subscribe p {
+  margin-bottom: 10px;
+  font-family: opensans;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: 400;
+}
+
+#Subscribe input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+#Subscribe button {
+  width: 100%;
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+}
+#Subscribe button:hover {
+  background-color: silver;
+  color: #000;
+}
+
+main {
+  background-color: #f1f1f1;
+}
+
+#rightside {
+  float: right;
+  width: 30%;
+  background-color: #f1f1f1;
+  padding: 20px 0px;
+}
+
+#rightside article {
+  padding: 20px 30px;
+  background-color: #ffffff;
+}
+
+.clear {
+  clear: both;
+}
+
+footer {
+  background-color: #616161;
+  padding: 50px;
+}
+
+footer .batton {
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer .batton i {
+  padding: 0px 6px;
+  text-align: center;
+}
+
+footer p {
+  padding-top: 25px;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+footer p a {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 800px) {
+  #aboveimg {
+    
+    top: 23%;
+   
+    
+  }
+  .right {
+    
+    
+    padding: 35px 35px;
+    
+  }
+
+  .seccontent .conteu {
+    
+    padding: 67px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+  .w5 {
+  font-size: 1.5rem;
+  line-height: 30px;
+  
+}
+
+.wc {
+  font-size: 2.5rem;
+  line-height: 45px;
+ 
+}
+
+.content button {
+  padding: 12px 22px;
+  
+ 
+}
+
+#aboveimg {
+ 
+  top:14%;
+ 
+}
+
+#leftside {
+  float: none;
+  width: 100%;
+
+}
+
+#rightside {
+  float: none;
+  width: 100%;
+
+}
+}
